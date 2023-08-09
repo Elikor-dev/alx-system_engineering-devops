@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -E '^(.*\n){2}(.*)$' iacta | cut -d $'\n' -f 3
